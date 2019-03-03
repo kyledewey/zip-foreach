@@ -1,0 +1,7 @@
+# compiled Scala files
+target
+project/build.properties
+
+# Emacs temp files
+*~
+\#*\#
