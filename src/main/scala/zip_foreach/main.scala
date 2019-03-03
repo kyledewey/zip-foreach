@@ -16,7 +16,6 @@ object Main {
       reader.foreach(input => {
         input.writeFile()
         maker.runProcessWithFilename(input.filename)
-        new java.io.File(input.filename).delete()
       })
     }
   } // main
